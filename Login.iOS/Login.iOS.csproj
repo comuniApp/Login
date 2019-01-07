@@ -166,5 +166,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\fondo.jpg" />
     <BundleResource Include="Resources\icono.png" />
+    <BundleResource Include="Resources\facebook_logo.png" />
+    <BundleResource Include="Resources\gmail_logo.png" />
   </ItemGroup>
 </Project>

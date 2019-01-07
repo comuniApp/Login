@@ -3,41 +3,4 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Login" 
              x:Class="Login.MainPage">
-    
-   <ContentPage.Content>
-   
-        <Grid> 
-            <Image Source="fondo.jpg" Aspect="AspectFill"/>
-            <BoxView Color="White" Opacity="0.2"/>
-            
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                
-                <Image Grid.Row="0" Source="icono.png" WidthRequest="100" Margin="0,50,0,30"/>
-                
-                <StackLayout Grid.Row="1" Padding="30,20">
-                    <Entry Placeholder="Correo eléctronico"  Opacity="0.8"/>
-                    <Entry Placeholder="Contraseña" IsPassword="true" Opacity="0.8"/>
-                    <Button Text="Iniciar Sesión" BackgroundColor="White" BorderRadius="20" TextColor="Blue"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="¿Recuperar Contraseña?"/>
-                        <Label Text="Registrarse" HorizontalOptions="EndAndExpand" FontAttributes="Bold"/>
-                    </StackLayout>
-                 
-                </StackLayout>
-                
-                <StackLayout Grid.Row="2" HorizontalOptions="Center" Margin="0,0,0,50">
-                        <Label Text="AEP-SOFTWARE" TextColor="Blue" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-                </StackLayout>
-               
-            </Grid>
-                        
-        </Grid>
-        
-   </ContentPage.Content>
-    
 </ContentPage>
